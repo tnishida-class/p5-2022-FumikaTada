@@ -12,5 +12,5 @@ function draw() {
   fill(255);
   textSize(32);
   textFont(fontBold);
-  text(77, 68, 100);
+  text(66, 68, 100);
 }
