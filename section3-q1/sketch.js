@@ -4,7 +4,7 @@ let count;
 let cycle;
 
 function setup(){
-  createCanvas(200, 200);z
+  createCanvas(200, 200);
   count = 0;
   cycle = 100;
 }
@@ -42,4 +42,4 @@ function draw(){
   
   
    
-}
+}}

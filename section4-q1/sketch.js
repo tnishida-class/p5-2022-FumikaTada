@@ -20,7 +20,7 @@ function setup(){
   let px, py; // 線を引くために一つ前の点を覚えておく変数
   for(let i = 0; i < scores.length; i++){
   // BLANK[1]
-  let scores = [88, 80, 76];
+  let px = [88, 80, 76];
   let sum = 0;
   for(let i = 0; i < scores.length; i++){
   sum += scores[i];
