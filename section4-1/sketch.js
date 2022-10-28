@@ -65,6 +65,7 @@ function setup(){
 
   // BLANK[5] 平均点の線を引きます
 
-  stroke('green');
+ 
   line(0,height-average*height/100, 400,height-average*height/100);
+  fill('green');
 }
