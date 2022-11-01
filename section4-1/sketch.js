@@ -65,7 +65,10 @@ function setup(){
 
   // BLANK[5] 平均点の線を引きます
 
- 
-  line(0,height-average*height/100, 400,height-average*height/100);
-  fill('green');
+  stroke(0,255,0);
+  line(0,height-average, 400,height);
+  stroke(0);
+  fill(0);
+  text(average.toPrecision(3),0,average);
+  
 }
