@@ -28,7 +28,7 @@ function keyPressed(){
     y += vy;   
   
     if(x < 0 || x > width){ vx = -10 * vx; }
-    if(y < 0 || y > height){ vy = -10 * vy; }
+    if(y < 0 || y > height){ vy = -10   * vy; }
 
   // x座標, y座標を画面内に戻しておく
   x = constrain(x, 0, width);

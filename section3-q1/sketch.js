@@ -13,7 +13,7 @@ function draw(){
   background(160, 192, 255);
   
   if (keyIsDown(LEFT_ARROW)) {
-    count = (count + 1) % cycle;
+    count = (count + 2) % cycle;
     let size=count;
 
   if(count >50){
