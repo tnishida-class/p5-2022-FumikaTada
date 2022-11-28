@@ -12,22 +12,34 @@ function setup() {
     rect(0, i * d, width, (i + 1) * d);
     
     
-      fill(blue);
-  
-    if(i%2==1){
+     
+    
+      if (keyIsDown(LEFT_ARROW)) {
+        fill('red')
+      }
+    
+    else{
+      fill(blue);}
+
+
+      if(i%2==1){
       fill(blue);
     }
     else {
       fill('white');
     }
-  }
+    fill(blue);
+    let size = d * 5;
+    rect(0, 0, size, size);
+  
+    fill(255);
+    // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
+    rect(size/4, 0, 25, size);
+    rect(0,25,size,25);
+    }
+  
+  
 
-  fill(blue);
-  let size = d * 5;
-  rect(0, 0, size, size);
+ 
 
-  fill(255);
-  // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
-  rect(size/4, 0, 25, size);
-  rect(0,25,size,25);
 }
